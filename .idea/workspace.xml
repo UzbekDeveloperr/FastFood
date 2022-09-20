@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a39012-7012-4ed0-88a8-e5dcdc30a5e5" name="Changes" comment="Create new project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/entity/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/entity/User.java" afterDir="false" />
+    <list default="true" id="c9a39012-7012-4ed0-88a8-e5dcdc30a5e5" name="Changes" comment="add entity class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/entity/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/entity/Food.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663672808958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add entity class">
+      <created>1663676959310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663676959310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new project" />
+    <MESSAGE value="add entity class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add entity class" />
   </component>
 </project>

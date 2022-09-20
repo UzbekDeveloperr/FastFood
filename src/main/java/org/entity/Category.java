@@ -8,6 +8,6 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Builder
 public class Category {
-    int id;
+    Long id;
     String name;
 }
