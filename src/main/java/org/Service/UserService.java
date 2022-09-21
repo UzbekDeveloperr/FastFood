@@ -16,7 +16,7 @@ public class UserService extends Service{
     public User findUser(Long chatId){
         User user=null;
         try {
-            PreparedStatement statement= connection().prepareStatement("select * from users where id=?");
+            PreparedStatement statement= connection().prepareStatement("select * from users where chat_id=?");
             statement.setLong(1,chatId);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()){
@@ -41,9 +41,9 @@ public class UserService extends Service{
         }
     }
     //update phone number user
-    public boolean updatePhoneNumber(String phoneNumber,Long chatId){
+    public boolean  updatePhoneNumber(String phoneNumber,Long chatId){
         try {
-            PreparedStatement statement= connection().prepareStatement("update users set phoneNumber=? where=?");
+            PreparedStatement statement= connection().prepareStatement("update users set \"phoneNumber\"=? where chat_id=?");
             statement.setString(1,phoneNumber);
             statement.setLong(2,chatId);
             return !statement.execute();
@@ -52,9 +52,9 @@ public class UserService extends Service{
         }
     }
     //change action user
-    public boolean changeAction(String action,Long chatId){
+    public boolean changeAction(Long chatId,String action){
         try {
-            PreparedStatement statement= connection().prepareStatement("update users set action=? where=?");
+            PreparedStatement statement= connection().prepareStatement("update users set \"action\"=? where chat_id=?");
             statement.setString(1,action);
             statement.setLong(2,chatId);
             return !statement.execute();

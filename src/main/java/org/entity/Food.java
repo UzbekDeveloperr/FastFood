@@ -13,6 +13,6 @@ public class Food {
     String name;
     String description;
     String img_link;
-    Long price;
+    double price;
     Long category_id;
 }

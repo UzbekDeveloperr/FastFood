@@ -24,7 +24,7 @@ public class CategoryService extends Service{
                         .id(resultSet.getLong("id"))
                         .name(resultSet.getString("name"))
                         .build();
-
+                System.out.println(category);
                 categories.add(category);
             }
         } catch (SQLException e) {
